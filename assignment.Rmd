@@ -1,0 +1,8 @@
+#An awesome Report 
+
+The first thing I need to do is pick three countries I'm interested in, and select the data for those three countries
+
+```{r}
+gapbinder <- read.delim("gapminderDataFiveYear.txt")
+levels(gapbinder$country)
+countries <- subset(gapbinder, country == "Afghanistan" | country == "Sudan" | country == "Spain")
