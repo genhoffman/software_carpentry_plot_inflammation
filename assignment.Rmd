@@ -6,3 +6,5 @@ The first thing I need to do is pick three countries I'm interested in, and sele
 gapbinder <- read.delim("gapminderDataFiveYear.txt")
 levels(gapbinder$country)
 countries <- subset(gapbinder, country == "Afghanistan" | country == "Sudan" | country == "Spain")
+
+```
