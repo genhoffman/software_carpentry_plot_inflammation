@@ -1,4 +1,4 @@
-# Author: Naupaka Zimmerman June 16, 2014
+# Hello Author: Naupaka Zimmerman June 16, 2014
 # Script to make figure with ggplot from
 # command line argument for SWC bootcamp
 # UC Davis - Davis, CA
